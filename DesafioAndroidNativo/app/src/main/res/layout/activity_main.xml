@@ -8,13 +8,27 @@
 
     <LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  android:orientation="vertical">
+                  android:orientation="vertical"
+                  android:layout_gravity="center"
+                  android:gravity="center">
 
-        <ImageView android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:src="@android:color/background_dark"
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="136dp"
+                   android:src="@drawable/logo_mercado_livre"
+                   android:id="@+id/imgVwMercadoLivre"
                    android:contentDescription="Mercado Livre"/>
 
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="135dp"
+                   android:src="@drawable/logo_net_shoes"
+                   android:id="@+id/imgVwNetShoes"
+                   android:contentDescription="NetShoes"/>
+
+        <Button
+                android:text="About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btAbout"/>
     </LinearLayout>
 
 </FrameLayout>
