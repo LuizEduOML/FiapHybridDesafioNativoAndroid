@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout android:layout_width="wrap_content"
+    <LinearLayout android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:orientation="vertical"
-                  android:layout_gravity="center"
                   android:gravity="center">
 
         <ImageView android:layout_width="116dp"
@@ -20,15 +19,52 @@
 
         <ImageView android:layout_width="116dp"
                    android:layout_height="135dp"
+                   android:src="@drawable/logo_buscape"
+                   android:id="@+id/imgVwBuscape"
+                   android:contentDescription="Buscapé"/>
+
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="135dp"
+                   android:src="@drawable/logo_ebay"
+                   android:id="@+id/imgVwEBay"
+                   android:contentDescription="eBay"/>
+
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="135dp"
+                   android:src="@drawable/logo_webmotors"
+                   android:id="@+id/imgVwWebMotors"
+                   android:contentDescription="WebMotors"/>
+
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="135dp"
+                   android:src="@drawable/logo_magalu"
+                   android:id="@+id/imgVwMagalu"
+                   android:contentDescription="Magalu"/>
+
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="135dp"
                    android:src="@drawable/logo_net_shoes"
                    android:id="@+id/imgVwNetShoes"
                    android:contentDescription="NetShoes"/>
 
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="135dp"
+                   android:src="@drawable/logo_americanas"
+                   android:id="@+id/imgVwAmericanas"
+                   android:contentDescription="Americanas"/>
+
+        <ImageView android:layout_width="116dp"
+                   android:layout_height="135dp"
+                   android:src="@drawable/logo_submarino"
+                   android:id="@+id/imgVwSubmarino"
+                   android:contentDescription="Submarino"/>
+
         <Button
                 android:text="About"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/btAbout"/>
+                android:id="@+id/btAbout"
+                android:layout_marginTop="20sp"/>
     </LinearLayout>
 
-</FrameLayout>
+</ScrollView>
