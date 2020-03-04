@@ -8,31 +8,90 @@
         tools:context=".AboutActivity">
 
     <LinearLayout android:layout_width="match_parent"
-                  android:layout_height="match_parent">
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center">
 
         <TextView
                 android:text="Desafio Android Nativo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtTitulo"/>
+                android:id="@+id/txtTitulo"
+                android:textSize="36sp"/>
 
         <TextView
-                android:text="Quantidade de acessos:"
+                android:text="Mercado Livre: "
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtQtdAcessos"/>
+                android:id="@+id/txtQtdAcessosMercadoLivre"
+                android:textSize="18sp"/>
 
         <TextView
-                android:text="Luiz Eduardo de Oliveira Martins Leal RM: 83514"
+                android:text="Buscapé: "
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtNome"/>
+                android:id="@+id/txtQtdAcessosBuscape"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:text="eBay: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtdAcessosEBay"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:text="WebMotors: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtdAcessosWebMotors"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:text="Magalu: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtdAcessosMagalu"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:text="NetShoes: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtdAcessosNetShoes"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:text="Americanas: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtdAcessosAmericanas"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:text="Submarino: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtdAcessosSubmarino"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:text="Luiz Eduardo de Oliveira Martins Leal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNome"
+                android:textSize="22sp"/>
 
         <TextView
                 android:text="RM: 83514"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtRm"/>
+                android:id="@+id/txtRm"
+                android:textSize="16sp"/>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear cache"/>
     </LinearLayout>
 
 </FrameLayout>
