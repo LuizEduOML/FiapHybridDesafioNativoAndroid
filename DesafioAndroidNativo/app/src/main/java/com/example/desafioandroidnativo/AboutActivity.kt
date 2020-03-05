@@ -11,9 +11,5 @@ class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
-
-        var sh = getSharedPreferences("valores", Context.MODE_PRIVATE)
-
-        sh.edit().putString("vl", txtQtdAcessos.text.toString()).apply()
     }
 }
